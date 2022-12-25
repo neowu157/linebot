@@ -60,3 +60,4 @@ py app.py
 - input_gender: 輸入男生或女生
 - input_height: 輸入身高(整數)
 - input_weight: 輸入體重(整數)
+- show_result:  bot輸出兵役體位及BMI
