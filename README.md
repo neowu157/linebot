@@ -1,19 +1,21 @@
-# Line Fitness
+# linebot
 
 ## 前言
-接近大四，很多男生會很想知道自己的bmi與自己的兵役體位,這個bot可以幫助他們。
+接近大四,即將收到體檢兵單，很多男生會很想知道自己的bmi與自己的兵役體位,這個bot可以幫助到他們。
 
 ## 構想
 使用者輸入的性別、身高、體重、linebot會回傳bmi與體位
+
 ## 環境
 - windows 11
+- anaconda
 - pychram
 - python 3.9
 
 ## 使用教學
 1. 透過anaconda打開pycharm
 
-2. 讓pyharm安裝所需套件
+2. 讓pycharm安裝所需套件
 
 3. 從`.env.sample`產生出一個`.env`，並填入以下資訊
 
@@ -28,7 +30,9 @@
 ngrok http 8000
 ```
 6. execute app.py
+```shell
 py app.py
+```
 
 
 ## 使用說明
